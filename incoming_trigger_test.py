@@ -11,7 +11,7 @@ if __name__ == "__main__":
     
 	if(len(sys.argv)<3):
 		print("ERROR: Incorrect use of the script")
-		print("Use: python incoming_trigger_test.py <numberoftriggers> <waiting seconds>")
+		print("Use: python incoming_trigger_test.py <numberoftriggers> <interval in seconds>")
 		sys.exit()
 	
 	print("LSL INCOMING TRIGGERS TEST\n")
