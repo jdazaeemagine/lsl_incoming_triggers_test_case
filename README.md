@@ -8,7 +8,7 @@ https://www.python.org/downloads/
 
 2. Install pylsl with the following command in the CMD:
 
-```py -m install pylsl```
+```py -m pip install pylsl```
 
 3 Using the CMD prompt, go to the script folder path (using ```cd```). For example:
 
