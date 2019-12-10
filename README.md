@@ -18,4 +18,4 @@ https://www.python.org/downloads/
 
 If you want to send infinite triggers use -1 and finalize the script using ```Ctrl + C```
 
-```py incoming_trigger_test.pz <numberoftriggers> <intervalseconds>```
+```py incoming_trigger_test.py <numberoftriggers> <intervalseconds>```
