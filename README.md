@@ -15,7 +15,6 @@ https://www.python.org/downloads/
 ```cd C:\Users\neuro\Desktop\pytest```
 
 4. To execute the script use the following command specifying the number of triggers and its interval time between them (in secs). 
-
-If you want to send infinite triggers use -1 and finalize the script using ```Ctrl + C```
+  If you want to send infinite triggers use -1 and finalize the script using ```Ctrl + C```
 
 ```py incoming_trigger_test.py <numberoftriggers> <intervalseconds>```
