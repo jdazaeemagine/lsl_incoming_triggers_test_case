@@ -1,5 +1,4 @@
-# lsl_incoming_triggers_test_case
- Test case for LSL incoming triggers
+# Test case for LSL incoming triggers
 
 Steps to run the script:
 
