@@ -10,7 +10,7 @@ https://www.python.org/downloads/
 
 ```py -m pip install pylsl```
 
-3 Using the CMD prompt, go to the script folder path (using ```cd```). For example:
+3. Using the CMD prompt, go to the script folder path (using ```cd```). For example:
 
 ```cd C:\Users\neuro\Desktop\pytest```
 
