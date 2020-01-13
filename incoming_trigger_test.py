@@ -26,7 +26,7 @@ if __name__ == "__main__":
     
     
 	triggers = int(sys.argv[1]) #number of triggers
-	sleeping_time = int(sys.argv[2]) #time in seconds
+	sleeping_time = float(sys.argv[2]) #time in seconds
 
 	cont = 1
 
