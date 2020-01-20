@@ -30,8 +30,8 @@ def push(key):
     si = lsl.StreamInfo(name=key, type='Markers', source_id='testing_dep', channel_format=name_format[key])
     so= lsl.stream_outlet(si)
         
-    time.sleep(10)
-    println(key)
+    time.sleep(5)
+    print(key)
     
     for i in range(60):
         so.push_sample([name_samples[key]], lsl.local_clock())
@@ -42,5 +42,5 @@ if __name__ == "__main__":
 
     for key in name_format:
         
-        
+        time.sleep(5)
         threading.Thread(target=push,args=(key,)).start()

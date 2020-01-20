@@ -16,7 +16,7 @@ if __name__ == "__main__":
 	
 	print("LSL INCOMING TRIGGERS TEST\n")
 	
-	name = "stream_trigger"
+	name = "stream_trigger2"
 
 	si = lsl.StreamInfo(name=name, type='Markers', source_id='testing_dep', channel_format=lsl.cf_string)
 	so = lsl.stream_outlet(si)
@@ -34,9 +34,8 @@ if __name__ == "__main__":
 	
 		string = "%i -> %s"%(cont, datetime.datetime.now().time())
     
-		print(string)
-    
-		time.sleep(sleeping_time)
-		
+		print(string)		
 		so.push_sample([string], lsl.local_clock())
 		cont+=1
+		
+		time.sleep(sleeping_time)
